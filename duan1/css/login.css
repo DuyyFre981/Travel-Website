@@ -1,0 +1,36 @@
+/* login */
+*{
+    background: #F6F6E9;
+}
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background:#F6F6E9;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+i{
+    margin-right: 20px;
+    font-size: 30px;
+}
+i:hover{
+   color:rgb(127, 127, 215);
+}
+input#login:hover{
+    background-color: #ffff;
+    color: brown;
+}
+#loginform>h1{
+    margin-left: 20%;
+    color:brown ;
+    font-weight: 100;
+}
+/* end login */
